@@ -6,7 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    div{
+        /* margin: 10px; */
+        text-align: center;
+    }
+    button{
+        margin: 10px;
+    }
+    #clean{
+        height: 30px;
+        width: 60px;
+    }
+</style>
 <body>
     <script src="main.js"></script>
+    <div>
+        <h1>Click Button to see output in Console</h1> <br>
+        <button type="button" onclick="arraySlice(foods)">
+            #Function 1: slice
+        </button> <br>
+         <button type="button" onclick="arraySplice(foods)">
+            #Function 2: splice
+        </button> <br>
+         <button type="button" onclick="filter(numberArray)">
+            #Function 3: filter
+        </button> <br>
+         <button type="button" onclick="isPrime(numberArray)">
+            #Function 4: isprime
+        </button> <br> 
+         <button type="button" onclick="map(myArray)">
+            #Function 5: map
+        </button> <br>
+         <button type="button" onclick="Reduce(Array)">
+            #Function 6: reduce
+        </button> <br>
+        <button type="button" onclick="clean()" id="clean">
+            Clear Console
+        </button>
+    </div>
 </body>
 </html>
